@@ -2,8 +2,6 @@
 let darkTheme = localStorage.getItem('darkTheme');
 const themeToggle = document.querySelector('#themeButton');
 
-darkTheme = 'enabled';
-
 const enableDark = () => {
     document.body.classList.add('darktheme');
     localStorage.setItem('darkTheme', 'enabled');
@@ -34,3 +32,14 @@ themeToggle.addEventListener('click', () => {
 });
 
 // Change the theme with the time
+
+// const today = new Date();
+// const Hr = today.getHours();
+
+/*
+if (Hr >= 19 || Hr < 5) {
+    enableDark();
+} else {
+    disableDark();
+}
+*/

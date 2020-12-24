@@ -1,4 +1,3 @@
-
 const iconElement = document.querySelector('.weather-icon');
 const tempElement = document.querySelector('.temperature-value p');
 const descElement = document.querySelector('.temperature-description p');
@@ -14,7 +13,7 @@ var tempUnit = 'C';
 
 const KELVIN = 273.15;
 // Use your own key for the Weather, Get it here: https://openweathermap.org/
-const key = '111a44aa05dabf82efb98b0611aa2e74';
+const key = 'aa5b0a76dfbf87541928fb3cc32d3d69';
 
 navigator.geolocation.getCurrentPosition((position) => {
     console.log(position.coords.latitude, position.coords.longitude)
